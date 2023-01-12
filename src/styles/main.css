@@ -1,0 +1,69 @@
+@import './markdown.css';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+:root {
+  --background: #edf1F5;
+  --button: #000;
+  --button-color: #fff;
+  --button-radius: 1rem;
+  --card-background: #fff;
+  --item-active: #02a9ff;
+  --item-background: #edf1F5;
+  --item-hover: #d6e0ef;
+  --item-radius: .5rem;
+  --shadow: 0 0 2.5rem rgb(0 0 0 / 10%);
+  /* --shadow: 0 .4rem .6rem rgb(49 54 68 / 5%), 0 .5rem 2rem rgb(49 54 68 / 10%); */
+  /* --shadow-hover: 0 .4rem .6rem rgb(49 54 68 / 10%), 0 1rem 4rem rgb(49 54 68 / 20%) */
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  background-color: var(--background);
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+html.dark {
+  --background: #14181D;
+  --button: #fff;
+  --button-color: #000;
+  --card-background: #20232D;
+  --item-background: #20232D;
+  --item-hover: #f5f6fd;
+  color-scheme: dark;
+}
+
+html,
+body,
+#app {
+  font-family: 'Work Sans', sans-serif, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, helvetica, arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  letter-spacing: -.08rem;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  word-spacing: .1rem;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: rgb(13,148,136);
+  height: 2px;
+  left: 0;
+  opacity: 0.75;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1031;
+}
