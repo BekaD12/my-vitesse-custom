@@ -38,9 +38,7 @@ onUnmounted(() => {
                 </div>
                 <div class="header-middle menu">
                     <div class="menu-inner">
-                        <router-link class="menu-item home" to="./">Link</router-link>
-                        <router-link class="menu-item info" to="/blog">Link</router-link>
-                        <router-link class="menu-item contact" to="/contact">Contact</router-link>
+                        <router-link class="menu-item home" to="./">Home</router-link>
                         <div class="menu-item btn-container">
                             <button class="btn">
                                 Button
@@ -71,5 +69,5 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
-@import '~/styles/header.css';
+@import '~/styles/global/header.css';
 </style>

@@ -1,8 +1,8 @@
-@import './markdown.css';
+@import '.././markdown.css';
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 
 :root {
-  --background: #edf1F5;
+  --background: #fff;
   --button: #000;
   --button-color: #fff;
   --button-radius: 1rem;
@@ -12,8 +12,8 @@
   --item-hover: #d6e0ef;
   --item-radius: .5rem;
   --shadow: 0 0 2.5rem rgb(0 0 0 / 10%);
-  /* --shadow: 0 .4rem .6rem rgb(49 54 68 / 5%), 0 .5rem 2rem rgb(49 54 68 / 10%); */
-  /* --shadow-hover: 0 .4rem .6rem rgb(49 54 68 / 10%), 0 1rem 4rem rgb(49 54 68 / 20%) */
+  --shadow: 0 .4rem .6rem rgb(49 54 68 / 5%), 0 .5rem 2rem rgb(49 54 68 / 10%);
+  --shadow-hover: 0 .4rem .6rem rgb(49 54 68 / 10%), 0 1rem 4rem rgb(49 54 68 / 20%)
 }
 
 * {

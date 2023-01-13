@@ -11,14 +11,14 @@ import {
 
 export default defineConfig({
   shortcuts: [
-    ['btn', 'px-4 py-1 rounded inline-block bg-teal-700 text-white cursor-pointer hover:bg-teal-800 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
-    ['icon-btn', 'inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600'],
+    ['btn', 'px-8 py-1 rounded inline-block bg-black text-white cursor-pointer hover:bg-black disabled:cursor-default disabled:bg-gray-800 disabled:opacity-50'],
+    ['icon-btn', 'inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-grey-900'],
   ],
   presets: [
     presetUno(),
     presetAttributify(),
     presetIcons({
-      scale: 1.2,
+      scale: 1.5,
       warn: true,
     }),
     presetTypography(),

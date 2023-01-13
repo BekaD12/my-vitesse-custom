@@ -25,25 +25,16 @@ const { t } = useI18n()
       </a>
     </p>
     <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
+      <em opacity-75>{{ t('intro.desc') }}</em>
     </p>
 
     <div py-4 />
 
-    <TheInput
-      v-model="name"
-      placeholder="What's your name?"
-      autocomplete="false"
-      @keydown.enter="go"
-    />
+    <Input v-model="name" placeholder="What's your name?" autocomplete="false" @keydown.enter="go" />
     <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
 
     <div>
-      <button
-        btn m-3 text-sm
-        :disabled="!name"
-        @click="go"
-      >
+      <button mt-8 btn m-3 :disabled="!name" @click="go">
         {{ t('button.go') }}
       </button>
     </div>
