@@ -8,7 +8,7 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 <br>
 
-My own forks from Antfu's awesome Vitesse starter template. It contains enhancement with some of my personal good practices acquired over time which cannot be dissociated between each of my projects.
+My own fork of Antfu's awesome Vitesse starter template. It contains enhancement with some of my personal good practices acquired over time which cannot be dissociated between each of my projects.
 
 <br>
 
