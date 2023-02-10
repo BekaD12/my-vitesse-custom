@@ -35,7 +35,6 @@
 }
 
 .header-left {
-    color: #000;
     font-size: 2rem;
     align-items: center;
     display: flex;
@@ -44,12 +43,7 @@
     height: 3rem;
 }
 
-.header-left * {
-    /* transition: color .3s, fill .3s; */
-}
-
 .header-middle {
-    color: #000;
     grid-column: 2;
     grid-row: 1;
     justify-self: center;
@@ -103,62 +97,10 @@
 }
 
 .header-right .btn {
-    background-color: #000;
-    color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
     padding: 1.2rem 1.6rem;
     transition: color .3s, background-color .3s;
-}
-
-/* scrolled / not index */
-.header-content.scrolled::before {
-    opacity: 1;
-}
-
-.header-content.scrolled,
-.header-container:not(.index):not(.prestation) .header-content {
-    background-color: #fff;
-}
-
-.scrolled .header-left *,
-.header-container:not(.index):not(.prestation) .header-left * {
-    color: #000;
-    fill: #000;
-}
-
-.scrolled .header-middle,
-.header-container:not(.index):not(.prestation) .header-middle {
-    color: #000;
-}
-
-.scrolled .header-right .btn,
-.header-container:not(.index):not(.prestation) .header-right .btn {
-    background-color: #000;
-    color: #fff;
-}
-
-/* dark / scrolled / not index */
-.dark .header-content.scrolled,
-.dark .header-container:not(.index):not(.prestation) .header-content {
-    background-color: #202020;
-}
-
-.dark .scrolled .header-left *,
-.dark .header-container:not(.index):not(.prestation) .header-left * {
-    color: #fff;
-    fill: #fff;
-}
-
-.dark .scrolled .header-middle,
-.dark .header-container:not(.index):not(.prestation) .header-middle {
-    color: #fff;
-}
-
-.dark .scrolled .header-right .btn,
-.dark .header-container:not(.index):not(.prestation) .header-right .btn {
-    background-color: #fff;
-    color: #000;
 }
 
 .burger {
@@ -199,7 +141,6 @@
     }
 
     .menu .menu-inner {
-        background-color: #fff;
         border-radius: 3rem;
         box-shadow: 0 .1rem .4rem rgb(0 0 0 / 15%);
         flex: 100%;
@@ -227,10 +168,6 @@
         margin: .5rem 0;
     }
 
-    html.dark .menu .menu-item {
-        color: #fff;
-    }
-
     .menu .menu-item.router-link-active::after {
         width: 1rem;
     }
@@ -244,11 +181,6 @@
     .menu .menu-item.btn-container .btn {
         padding: 1.2rem 1.6rem;
         transition: color .3s, background-color .3s;
-    }
-
-    html.dark .btn {
-        background-color: #fff;
-        color: #000;
     }
 
     /* burger */
@@ -309,10 +241,6 @@
         stroke-linecap: round;
         stroke-width: 5.5;
         transition: stroke 400ms, stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    }
-
-    html.dark .line {
-        stroke: #fff;
     }
 }
 
