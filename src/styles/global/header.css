@@ -35,9 +35,9 @@
 }
 
 .header-left {
-    font-size: 2rem;
     align-items: center;
     display: flex;
+    font-size: 2rem;
     grid-column: 1;
     grid-row: 1;
     height: 3rem;
